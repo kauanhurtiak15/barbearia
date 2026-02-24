@@ -2,6 +2,11 @@ body {
     background-color: #c0c0c0cc;
 }
 
+ principal{
+    background: #cccccc;
+    padding: 30px;
+ }
+
 p{
     text-align: center;
 }
