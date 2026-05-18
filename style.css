@@ -2,7 +2,7 @@ body {
     background-color: #c0c0c0cc;
 }
 
- principal{
+ .principal{
     background: #cccccc;
     padding: 30px;
  }
@@ -28,7 +28,7 @@ ul{
 }
 
 .imgbeneficios{
-    width: 50%;
+    width: 30%;
 }
 
 p{
