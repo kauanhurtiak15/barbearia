@@ -54,21 +54,43 @@
       <main>
         <form>
             <h1> Fale Conosco </h1>
+                <fieldset>
+                    <p> Nome e Sobrenome </p>
+                    <input type="text" class="input-texto" required>
+
+                    <p> E-mail </p>
+                    <input type="email" class="input-texto" required placeholder="seulogin@dominio.com">
+
+                    <p> Telefone </p>
+                    <input type="tel" class="input-texto" required placeholder="(xx) xxxxx-xxxx">
+
+                    <p> Mensagem </p>
+                    <textarea cols="70" rows="10" required></textarea>
+                </fieldset>
+
             <fieldset>
-                <p> Nome e Sobrenome </p>
-                <input type="text" class="input-texto" required>
-
-                <p> E-mail </p>
-                <input type="email" class="input-texto" required placeholder="seulogin@dominio.com">
-
-                <p> Telefone </p>
-                <input type="tel" class="input-texto" required placeholder="(xx) xxxxx-xxxx">
-
-                <p> Mensagem </p>
-                <textarea cols="70" rows="10" required></textarea>
+                <legend>Como prefere o nosso contato?</legend>
+                <p><input type="radio" name="contato" value="email"> Email</p>
+                <p><input type="radio" name="contato" value="telefone"> Telefone</p>
+                <p><input type="radio" name="contato" value="whatsapp" checked> WhatsApp</p>
             </fieldset>
-        </form>
-    </main>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <p>
+            <input type="checkbox" checked>Gostaria de receber nossas novidades por email?
+            </p>
+
+            <button class="enviar"> Enviar Formulário </button>
+         </form>
+        </main>
 
 
    <div class="principal">
